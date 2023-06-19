@@ -1,0 +1,45 @@
+body {
+    background-color: #fdd11e;
+}
+
+.container {
+    position: relative;
+}
+
+.smiley {
+
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #b19215;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle p {
+    font-size: 64px;
+    position: absolute;
+    bottom: -48px;
+    right: 33px;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shape {
+
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 400px;
+    background-color: #ff555a;
+    clip-path: polygon(49% 78%, 65% 60%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 34% 60%);
+}
